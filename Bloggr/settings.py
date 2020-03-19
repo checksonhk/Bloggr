@@ -122,7 +122,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# where files are stored
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# how we access via browser
+MEDIA_URL = '/media/'
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_REDIRECT_URL = 'blog-home'
-LOGIN_URL ='login'
+LOGIN_URL = 'login'
