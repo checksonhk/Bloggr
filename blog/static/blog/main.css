@@ -56,7 +56,7 @@ ul {
   width: 100%;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .content-section {
@@ -67,8 +67,16 @@ ul {
   margin-bottom: 20px;
 }
 
+.content-section-hero {
+  width: 100%;
+  height: 60%;
+}
+
 .article-title {
   color: #444444;
+  font-size: 1.25rem;
+  font-weight: 600;
+  overflow: hidden;
 }
 
 a.article-title:hover {
@@ -78,8 +86,16 @@ a.article-title:hover {
 
 .article-content {
   white-space: pre-line;
-  max-height: 100px;
+  max-height: 75px;
   overflow: hidden;
+  margin-bottom: 0.25rem;
+  padding-right: 0.5rem;
+}
+
+.article-content-img {
+  width: 100px;
+  height: 100px;
+  float: right;
 }
 
 .article-img {
